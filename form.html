@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <p>
+            <label for="fn">First Name:</label>
+            <input id="fn" type="text" Name="firstname" size="10">
+            <label for="in">last Name:</label>
+            <input id="in" type="text" Name="lastname" size="10">
+            <input id="in" type="number" name="Phone" placeholder="enter your phone" required>
+            <input id="branchname" type="text" name="branchname" value="vikas nagar" diseabled>
+            <input id="adate" type="date" name="adate">
+        </p>
+        <p>
+            Gender:
+            <label for="gm">Male</label>
+            <input type="radio" Name="gender" value="male" id="gm">
+            <label for="fm">female</label>
+            <input type="radio" Name="gender" value="female" id="fm">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Course selection</legend>
+        <p>
+            Which product are you intersted in?
+        </p>
+        <p>
+            <select name="Course" multiple>
+                <option value="1" selected>CACS</option>
+                <OPTION value="2" selected>CAFA</OPTION>
+                <OPTION value="3">CADTP</OPTION>
+                <OPTION value="4">DWD</OPTION>
+                <OPTION value="5">DIT</OPTION>
+                <OPTION value="6">CTT</OPTION>
+            </select>
+        </p>
+        <P>Please select Branch Name:</P>
+        <p>
+            <select name="branch">
+                <option value="pit">Pitampura</option>
+                <option value="vik">Vikaspuri</option>
+                <option value="pat">Patel Nagar</option>
+                <option value="pas">Paschim Vihar</option>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Submission</legend>
+        <p>
+            <input type="reset" value="start over">
+            <input type="submit" value="get info">
+        </p>
+    </fieldset>
+    </form>
+    
+
+</body>
+</html>
